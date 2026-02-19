@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+helion.db
+helion_bot.log
+logs/
+data/
+.dockerignore

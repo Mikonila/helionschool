@@ -1,0 +1,12 @@
+services:
+  helion_bot:
+    build:
+      context: .
+    image: helion_bot:latest
+    container_name: helion_bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
